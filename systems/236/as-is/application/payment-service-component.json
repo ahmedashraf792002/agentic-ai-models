@@ -1,0 +1,16 @@
+{
+  "id": "payment-service-component",
+  "layer": "application",
+  "archimate_type": "Application Component",
+  "name": "Payment Service",
+  "documentation": "Handles payment processing, validates payments, checks fraud, and delegates to core banking.",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "code",
+      "locator": "evidence/code/app.py:3-11",
+      "excerpt": "class PaymentService:\n    def process_payment(self, amount, currency, customer_id):\n        if not self.validate_payment(amount, currency):\n            return {\"error\": \"invalid payment\"}\n        fraud_result = self.fraud_service.check(amount, customer_id)\n        if fraud_result[\"risk\"] > 0.8:\n            return {\"error\": \"payment rejected\"}\n        return self.banking_adapter.charge(amount, currency, customer_id)"
+    }
+  ],
+  "relationships": []
+}
