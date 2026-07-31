@@ -1,0 +1,16 @@
+{
+  "id": "order-processor",
+  "layer": "application",
+  "archimate_type": "Application Component",
+  "name": "Order Processor",
+  "documentation": "",
+  "confidence": "inferred",
+  "evidence": [
+    {
+      "source_type": "diagram",
+      "locator": "archimate_diagram_001",
+      "excerpt": "The Order Processor mediates between Customer and Payment Gateway."
+    }
+  ],
+  "relationships": []
+}

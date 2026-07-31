@@ -1,0 +1,16 @@
+{
+  "id": "customer",
+  "layer": "business",
+  "archimate_type": "Business Actor",
+  "name": "Customer",
+  "documentation": "",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "document",
+      "locator": "user_requirements_001",
+      "excerpt": "The system must interact with customers to process orders."
+    }
+  ],
+  "relationships": []
+}

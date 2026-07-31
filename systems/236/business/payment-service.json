@@ -1,0 +1,16 @@
+{
+  "id": "payment-service",
+  "layer": "business",
+  "archimate_type": "Business Service",
+  "name": "Payment Service",
+  "documentation": "Handles payment processing for customer transactions.",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "document",
+      "locator": "requirements/specs/001",
+      "excerpt": "The payment service ensures secure and efficient transaction processing."
+    }
+  ],
+  "relationships": []
+}
