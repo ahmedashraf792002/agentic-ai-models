@@ -1,0 +1,16 @@
+{
+  "id": "payment-operations-team",
+  "layer": "business",
+  "archimate_type": "Business Role",
+  "name": "Payment Operations team",
+  "documentation": "Team that monitors failed transactions",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "transcript",
+      "locator": "/evidence/business/interview-transcript.md",
+      "excerpt": "Payment Operations team monitors failed transactions."
+    }
+  ],
+  "relationships": []
+}
