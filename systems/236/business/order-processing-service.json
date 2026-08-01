@@ -1,0 +1,16 @@
+{
+  "id": "order-processing-service",
+  "layer": "business",
+  "archimate_type": "Business Service",
+  "name": "Order Processing",
+  "documentation": "Handles order processing for customer orders.",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "document",
+      "locator": "requirements/specs.pdf",
+      "excerpt": "The Order Processing service will manage all customer order lifecycle events."
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "customer-service-team",
+  "layer": "business",
+  "archimate_type": "Business Actor",
+  "name": "Customer Service Team",
+  "documentation": "Primary contact point for customer inquiries and support",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "document",
+      "locator": "business-processes-2023.pdf#page=15",
+      "excerpt": "The Customer Service Team handles all inbound customer communications and escalates critical issues to the Technical Support Department."
+    }
+  ],
+  "relationships": []
+}

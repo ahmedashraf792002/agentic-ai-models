@@ -1,0 +1,16 @@
+{
+  "id": "payment-gateway",
+  "layer": "technology",
+  "archimate_type": "Node",
+  "name": "Payment Gateway",
+  "documentation": "",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "system",
+      "locator": "tech_spec_001",
+      "excerpt": "The Payment Gateway handles credit card transactions."
+    }
+  ],
+  "relationships": []
+}

@@ -1,7 +1,5 @@
 {
-  "counts_by_layer": {
-    "business": 5
-  },
+  "counts_by_layer": {},
   "violations": [],
   "needs_review": [],
   "passed": true
