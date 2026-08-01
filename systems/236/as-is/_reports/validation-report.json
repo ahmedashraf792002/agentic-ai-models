@@ -1,5 +1,6 @@
 {
   "counts_by_layer": {
+    "application": 1,
     "business": 5
   },
   "violations": [],

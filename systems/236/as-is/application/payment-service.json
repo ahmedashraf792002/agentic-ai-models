@@ -1,0 +1,21 @@
+{
+  "id": "payment-service",
+  "layer": "application",
+  "archimate_type": "Application Service",
+  "name": "Payment Service",
+  "documentation": "",
+  "confidence": "observed",
+  "evidence": [
+    {
+      "source_type": "document",
+      "locator": "requirements/specifications.md",
+      "excerpt": "The payment service handles transaction processing and fraud detection."
+    }
+  ],
+  "relationships": [
+    {
+      "target_id": "fraud-detection-service",
+      "type": "Realization"
+    }
+  ]
+}
